@@ -2,11 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <h1>Rock Paper Scissors</h1>
 
+    <div id="display">
+        <form id="name-form">
+            <input type="text" placeholder="Name" id="name">
+            <button type="submit">Start</button>
+        </form>
+    </div>
+
+    <div id="player-1" class="box">
+        <h1 id="player-1-name"></h1>
+        <div id="player-1-selection">
+
+        </div>
+        <div id="player-1-count"></div>
+    </div>
+    <div id="message" class="box">
+
+    </div>
+    <div id="player-2" class="box">
+        <h1 id="player-2-name"></h1>
+        <div id="player-2-selection">
+            
+        </div>
+        <div id="player-2-count"></div>
+    </div>
+
+    <div id="chat">
+        <div id="chat-display">
+
+        </div>
+        <form id="chat-form">
+            <input type="text" id="text">
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
     <script src="assets/javascript/app.js"></script>
 </body>
 </html>

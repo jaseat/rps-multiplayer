@@ -1,0 +1,35 @@
+.box{
+    height: 300px;
+    width: 300px;
+    float: left;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#chat{
+    margin: 0 auto;
+    clear: both;
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#chat-form{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+#chat-form input{
+    width: 100%;
+}
+
+.name{
+    font-weight: bold;
+}
+
+p{
+    margin: 0;
+}
